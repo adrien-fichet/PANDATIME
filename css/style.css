@@ -1,192 +1,192 @@
 @import url(https://fonts.googleapis.com/css?family=Chelsea+Market);
 
 body {
-    background: url("../img/panda.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: "Chelsea Market", cursive;
-    color: white;
-    background-color: black;
+  background: url("../img/panda.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Chelsea Market", cursive;
+  color: white;
+  background-color: black;
 }
 
 .bodyClass {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 button {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: white;
-    font-family: "Chelsea Market", cursive;
-    padding: 10px;
-    margin: 5px;
-    font-size: 150%;
-    -moz-box-shadow: 1px 1px 1px white;
-    -webkit-box-shadow: 1px 1px 1px white;
-    box-shadow: 1px 1px 1px white;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-family: "Chelsea Market", cursive;
+  padding: 10px;
+  margin: 5px;
+  font-size: 150%;
+  -moz-box-shadow: 1px 1px 1px white;
+  -webkit-box-shadow: 1px 1px 1px white;
+  box-shadow: 1px 1px 1px white;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 button[disabled] {
-    background-color: lime;
+  background-color: lime;
 }
 
 #error {
-    color: red;
-    font-size: 500%;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
+  color: red;
+  font-size: 500%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
 }
 
 #stopAllSounds {
-    background-color: red;
+  background-color: red;
 }
 
 #stopAllSounds:first-letter {
-    color: yellow;
+  color: yellow;
 }
 
 #ultraPandatime:first-letter {
-    color: red;
+  color: red;
 }
 
 #soundboard {
-    display: none;
-    width: 80%;
-    margin: auto;
+  display: none;
+  width: 80%;
+  margin: auto;
 }
 
 fieldset, #links {
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background-color: rgba(255, 255, 255, 0.1);
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 legend {
-    color: white;
-    text-align: left;
+  color: white;
+  text-align: left;
 }
 
 #stop {
-    text-align: center;
+  text-align: center;
 }
 
 #ultraPandatime {
-    background-color: black;
-    color: yellow;
+  background-color: black;
+  color: yellow;
 }
 
 .key:first-letter {
-    color: red;
+  color: red;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 .youtube, #twitch, #wwf {
-    width: 50px;
-    padding: 2px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+  width: 50px;
+  padding: 2px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 .youtube {
-    background-color: white;
+  background-color: white;
 }
 
 #links {
-    margin-top: 10px;
-    float: left;
-    margin-right: 20px;
+  margin-top: 10px;
+  float: left;
+  margin-right: 20px;
 }
 
 #links td {
-    padding: 5px;
+  padding: 5px;
 }
 
 #dancingPanda {
-    display: none;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    text-align: center;
-    width: 100%;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  text-align: center;
+  width: 100%;
 }
 
 #dancingPanda img {
-    width: 500px;
+  width: 500px;
 }
 
 #dancingPandaSmall {
-    display: none;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: -1;
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: -1;
 }
 
 #pandaKiss {
-    display: none;
-    position: absolute;
-    top: 300px;
-    left: 30px;
-    z-index: -1;
+  display: none;
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  z-index: -1;
 }
 
 #giphy {
-    display: none;
-    position: absolute;
-    top: 500px;
-    left: 0px;
-    z-index: -1;
-    text-align: center;
-    width: 100%;
+  display: none;
+  position: absolute;
+  top: 500px;
+  left: 0;
+  z-index: -1;
+  text-align: center;
+  width: 100%;
 }
 
 #giphy img {
-    width: 500px;
+  width: 500px;
 }
 
 #pandaRoll {
-    display: none;
-    position: absolute;
-    top: 600px;
-    left: 10px;
-    z-index: -1;
+  display: none;
+  position: absolute;
+  top: 600px;
+  left: 10px;
+  z-index: -1;
 }
 
 #pandaRoll img {
-    width: 300px;
+  width: 300px;
 }
 
 img {
-    vertical-align: bottom;
+  vertical-align: bottom;
 }
 
 #bunnyPanda {
-    float: right;
-    text-align: center;
+  float: right;
+  text-align: center;
 }
 
 #bunnyPanda img {
-    width: 250px;
+  width: 250px;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .float-right {
-    float: right;
+  float: right;
 }
